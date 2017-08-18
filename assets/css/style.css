@@ -1,0 +1,30 @@
+body {
+	background: url(../images/celebration.png);
+}
+
+
+.stylePic {
+	width: 300px;
+	height: 250px;
+}
+
+p {
+	color: #5A1B26;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+}
+
+
+
+.change {
+	width: 400px;
+	height: 350px;
+}
+
+h1{
+	color: #5A1B26;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	font-size: 64px;
+
+}

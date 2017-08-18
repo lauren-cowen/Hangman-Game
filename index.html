@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Hangman Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+               <h1 class = "text-center"> Harry Potter Hangman </h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div id = "Winningimage" class="col-md-6 col-sm-12" >
+            <img class = "img-responsive center-block well" src = "assets/images/main.jpg">
+            </div>
+            <div id = "mainContent" class="col-md-6 col-sm-12 well">
+                <p>Press any key to get started!</p>
+                <br>
+                <p id="numWins">Wins: </p>
+                <br>
+                <p>Current Word</p>
+                <br>
+                <p id="lettersToGuess"></p>
+                <br>
+                <p>Number of Guesses Remaining</p>
+                <br>
+                <p id="remainingGuesses"> </p>
+                <p>Letters Already Guessed </p>
+                <br>
+                <p id="wrongLetters"> </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
